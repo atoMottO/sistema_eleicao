@@ -4,6 +4,7 @@
  * and open the template in the editor..
  */
 //testando com a turma 6N
+//testando com a turma 6P antes de sextar
 package com.mackenzie.eleicao;
 
 /**
@@ -35,6 +36,7 @@ public class Eleitor {
     }
     
 }
+
 
 
 
