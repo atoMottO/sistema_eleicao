@@ -1,0 +1,76 @@
+[
+  {
+    "ContainingType": "EmpregaAPI.Controllers.CurriculoController",
+    "Method": "AdicionaCurriculo",
+    "RelativePath": "api/Curriculo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "curriculo",
+        "Type": "EmpregaAPI.Models.Curriculo",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EmpregaAPI.Controllers.CurriculoController",
+    "Method": "ListaCurriculos",
+    "RelativePath": "api/Curriculo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EmpregaAPI.Controllers.CurriculoController",
+    "Method": "ListarCurriculoPorId",
+    "RelativePath": "api/Curriculo/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EmpregaAPI.Controllers.CurriculoController",
+    "Method": "AtualizarCurriculo",
+    "RelativePath": "api/Curriculo/Atualizar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "curriculo",
+        "Type": "EmpregaAPI.Models.Curriculo",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EmpregaAPI.Controllers.CurriculoController",
+    "Method": "ExcluirCurriculo",
+    "RelativePath": "api/Curriculo/Deletar",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "curriculo",
+        "Type": "EmpregaAPI.Models.Curriculo",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
